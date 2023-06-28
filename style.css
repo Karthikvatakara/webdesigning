@@ -1,0 +1,474 @@
+@font-face {
+    font-family:swiggy;
+    src: url('Helvetica-Neue-Font');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.header2{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.logo{
+    margin-top: 60px;
+    margin-left: 22px;
+}
+.heading{
+    margin-top: 65px;
+    margin-left: 22PX;
+}
+.heading h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height:48px;
+    color: rgb(40, 44, 63);
+}
+.heading h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight:300 ;
+    line-height:40px ;
+    color: rgb(104, 107, 120);
+}
+.form input{
+    width: 500px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+/* .form:hover{
+    border-color: #fc8019;
+}    */
+    
+
+.formbar::placeholder{
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 549;
+    color: rgb(104, 107, 120);
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.login a{
+    position: absolute;
+    top: 79px;
+    left: 460px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    
+}
+.signup button{
+    position: absolute;
+    top: 70px;
+    left: 532px;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    font-weight: 700;
+    width: 110px;
+    height: 40px;
+    border: none;
+    
+}
+.findfood button{
+    position: absolute;
+    top: 292.6px;
+    left: 470px;
+    background-color: #fc8019;
+    width:200;
+    height:60px;
+    width: 170px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+.popular{
+    margin-top: 30px;
+    margin-left: 22px;
+    color: rgb(104, 107, 120);
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+
+line-height: 25px;
+color:  rgb(169, 171, 178);
+}
+.body{
+    position: absolute;
+    top: 540px;
+    width: 100%;
+    height: 400px;
+    background-color:rgb(43,30,22);
+    display: flex;
+    justify-content: space-between;
+}
+.body1{
+    margin-left: 60px;
+}
+ .bodycontent1{
+    margin-top: 35px;
+    position: absolute;
+} 
+.bodycontent1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+     left:5px;
+    top: 13px;
+    color: white;
+    font-size:18px ;
+    font-weight: 600;
+    line-height: 24px; 
+    margin-left: -35px;
+}
+span{
+    color: rgb(104, 107, 120);
+}
+.bodycontent1 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210,190,179);
+    font-size: 15px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: -60px;
+}
+.bodycontent1 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(210,190,179);
+    font-size: 15px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: -52px;
+}
+.body2{
+    margin-left: 130px;
+    position: absolute;
+    left: 425px;
+}
+.body3{
+    position: absolute;
+    left: 980px;
+   
+    height: 400px;
+    margin-top: 20px;
+   
+}
+.bodycontent2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+     left:-28px;
+    top: 204px;
+    color: white;
+    font-size:18px ;
+    font-weight: 600;
+    line-height: 24px; 
+    
+}
+.bodycontent2 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210,190,179);
+    font-size: 15px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: -60px;
+    margin-top: 58px;
+
+}
+.bodycontent2 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(210,190,179);
+    font-size: 15px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: -52px;
+}
+.bodycontent3 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    
+     left:-160px;
+    top: 80px;
+    color: white;
+    font-size:18px ;
+    font-weight: 600;
+    line-height: 24px; 
+    margin-bottom: 0;
+}
+.bodycontent3 h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(210,190,179);
+    font-size: 15px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: -40px;
+    margin-top: px;
+
+}
+.bodycontent3 h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(210,190,179);
+    font-size: 15px;
+    font-weight: 300;
+    line-height:20px;
+    margin-left: -20px;
+    margin-bottom: 0;
+}
+.part1{
+    position: relative;
+}
+.section1{
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    color: rgb(40, 44, 63);
+}
+.section2{
+    position: absolute;
+    top: 700px;
+    left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: rgb(126, 128, 140);
+}
+.section3 .googleplay {
+    position: absolute;
+     top: 820px;
+    left: 30px;
+}
+
+.section3 .appstore{
+    position: absolute;
+    top: 820px;
+    left: 250px;
+}
+.part2 .iphone1{
+position:absolute;
+top: 457px;
+left: 550px;
+}
+
+.part2 .iphone2{
+    position: absolute;
+    top: 570px;
+    left: 900px;
+}
+.main2{
+    position: relative;
+}
+.footer {
+    background-color: black;
+   width: 100%;
+   height: 1000px;
+   position: absolute;
+   top: 1495px;
+   border-bottom: 25px;
+   border-color: red;
+   
+}
+.company ul {
+position: absolute;
+top: 80px;
+left: 20px;
+list-style: none;
+
+
+
+}
+.company ul a{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.company ul h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(128, 128, 128);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.contact ul{
+    position: absolute;
+    top: 85px;
+    left: 300px;
+    list-style: none;
+
+
+}
+.contact ul h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgb(128, 128, 128);
+    font-size: 15px;
+    
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.contact ul a{
+text-decoration: none;
+line-height: 30px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.terms ul{
+position: absolute;
+top: 89px;
+list-style: none;
+left: 600px;
+}
+.terms ul h3{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color:  rgb(128, 128, 128);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    
+}
+.terms ul a{
+    text-decoration: none;
+    line-height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons .icon1{
+    position: absolute;
+    top:125px;
+    right: 15px;
+    border-color: white;
+    border: 5px solid;
+}
+.icons .icon2{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.footer2{
+    position: relative;
+}
+.list1 ul{
+    position: absolute;
+    top:1450px;
+    left: 25px;
+    list-style: none;
+}
+.list1 ul a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.list2 ul {
+    position: absolute;
+    top: 1500px;
+    left: 350px;
+    list-style: none;
+}
+.list2 ul a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.list3 ul {
+    position: absolute;
+    top: 1500px;
+    left: 650px;
+    list-style: none;
+}
+.list3 ul a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+.list4 ul {
+    position: absolute;
+    top: 1500px;
+    left: 950px;
+    list-style: none;
+}
+.list4 ul a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.footer3{
+    position: relative;
+}
+.lastlogo{
+    position: absolute;
+    top: 1925px;
+}
+.swiggyheading{
+    color: white;
+    position: absolute;
+    top: 1925px;
+    left: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+    
+}
+.facebook{
+    position: absolute;
+    top: 1930px;
+    left: 880px;
+}   
+.instagram{
+    position: absolute;
+    top: 1930px;
+    left: 980px;
+}
+.pintrest{
+    position: absolute;
+    top:1930px;
+    left: 930px;
+}
+.twitter{
+    position: absolute;
+    top: 1930px;
+    left: 1030px;
+}
+ .login a:hover{
+    color: #fc8019;
+
+ }
+
+ body {overflow: scroll;
+width: 100%;
+}
